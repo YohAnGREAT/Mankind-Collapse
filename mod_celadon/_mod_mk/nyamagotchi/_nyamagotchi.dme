@@ -2,5 +2,7 @@
 #define MODPACK_MK_NYAMAGOTCHI
 
 #include "code/nyamagotchi.dm"
+#include "code/vending.dm"
+#include "code/loadout_general.dm"
 
 #endif
