@@ -1,6 +1,0 @@
-#ifndef MODPACK_MANKIND_NYAMAGOTCHI
-#define MODPACK_MANKIND_NYAMAGOTCHI
-
-#include "code/nyamagotchi.dm"
-
-#endif

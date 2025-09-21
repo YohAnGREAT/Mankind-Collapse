@@ -6,6 +6,9 @@
 // Соблюдаем алфавитный порядок при добавлении путей!
 // Пример пути: #include "example/_example.dme"
 
+// --- MANKIND --- //
+#include "_mod_mk/mod_mk.dme"
+
 // --- MAINTENANCE --- //
 #include "_components/__components.dme"
 #include "emotes/_emotes.dme"

@@ -203,7 +203,6 @@
 #include "code\__DEFINES\traits\sources.dm"
 #include "code\__DEFINES\traits\traits.dm"
 #include "mod_celadon\mod_defines.dme" // MARK: DEFINES
-#include "mod_mankind\mod_defines.dme" // MARK: MANKIND DEFINES
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_lists.dm"
 #include "code\__HELPERS\_logging.dm"
@@ -3737,6 +3736,3 @@
 
 // CELADON
 #include "mod_celadon\mod_celadon.dme"
-
-// MANKIND
-#include "mod_mankind\mod_mankind.dme"

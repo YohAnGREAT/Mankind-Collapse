@@ -1,0 +1,6 @@
+#ifndef MODPACK_MK_NYAMAGOTCHI
+#define MODPACK_MK_NYAMAGOTCHI
+
+#include "code/nyamagotchi.dm"
+
+#endif

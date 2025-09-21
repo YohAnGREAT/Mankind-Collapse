@@ -2,17 +2,17 @@
 #define ANIMAL_ALIVE 1
 #define ANIMAL_DEAD 2
 
-#define MEOW_NORMAL 'mod_mankind/nyamagotchi/sound/cat_meow1.ogg'
-#define MEOW_SAD 'mod_mankind/nyamagotchi/sound/cat_sad.ogg'
-#define MEOW_CRITICAL 'mod_mankind/nyamagotchi/sound/cat_alert.ogg'
-#define EAT_FOOD 'mod_mankind/nyamagotchi/sound/cat_eat.ogg'
-#define PURR_PLAY 'mod_mankind/nyamagotchi/sound/cat_purr1.ogg'
-#define PURR_SLEEP 'mod_mankind/nyamagotchi/sound/cat_purr3.ogg'
+#define MEOW_NORMAL 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_meow1.ogg'
+#define MEOW_SAD 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_sad.ogg'
+#define MEOW_CRITICAL 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_alert.ogg'
+#define EAT_FOOD 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_eat.ogg'
+#define PURR_PLAY 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_purr1.ogg'
+#define PURR_SLEEP 'mod_celadon/_mod_mk/nyamagotchi/sound/cat_purr3.ogg'
 
 /obj/item/toy/nyamagotchi
 	name = "Nyamagotchi"
 	desc = "Маленький электронный «питомец», требующий заботы и внимания. Древняя реликвия, способная вызвать ностальгические чувства."
-	icon = 'mod_mankind/nyamagotchi/icons/nyamagotchi.dmi'
+	icon = 'mod_celadon/_mod_mk/nyamagotchi/icons/nyamagotchi.dmi'
 	icon_state = "nya"
 	item_state = "electronic"
 	lefthand_file = 'icons/mob/inhands/misc/devices_lefthand.dmi'
@@ -23,7 +23,7 @@
 	throwforce = 2
 	actions_types = list(/datum/action/item_action/nyamagotchi_menu)
 	var/list/icons_available = list()
-	var/radial_icon_file = 'mod_mankind/nyamagotchi/icons/radial_nyamagotchi.dmi'
+	var/radial_icon_file = 'mod_celadon/_mod_mk/nyamagotchi/icons/radial_nyamagotchi.dmi'
 
 	/// Hunger level (0 = full, 100 = starving)
 	var/hunger = 0
@@ -197,7 +197,7 @@
 	hunger = rand(30, 60)
 	happiness = rand(80, 100)
 	energy = rand(60, 90)
-	be_known(sfx = 'mod_mankind/nyamagotchi/sound/bloop.ogg', speech = "Я жив, нья!")
+	be_known(sfx = 'mod_celadon/_mod_mk/nyamagotchi/sound/bloop.ogg', speech = "Я жив, нья!")
 	addtimer(CALLBACK(src, PROC_REF(be_known), MEOW_NORMAL), 2 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(update)), update_rate)
 
@@ -340,7 +340,7 @@
 
 /datum/action/item_action/nyamagotchi_menu
 	name = "Check Nyamagotchi"
-	icon_icon = 'mod_mankind/nyamagotchi/icons/nyamagotchi.dmi'
+	icon_icon = 'mod_celadon/_mod_mk/nyamagotchi/icons/nyamagotchi.dmi'
 	button_icon_state = "nya"
 
 #undef NO_ANIMAL

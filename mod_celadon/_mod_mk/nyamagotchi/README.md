@@ -6,7 +6,7 @@
 
 ## Nyamagotchi
 
-ID мода: MANKIND_NYAMAGOTCHI
+ID мода: MK_NYAMAGOTCHI
 
 ### Описание мода
 
@@ -28,7 +28,7 @@ ID мода: MANKIND_NYAMAGOTCHI
 
 ### Дефайны
 
-- `mod_mankind\nyamagotchi\code\nyamagotchi.dm`: `NO_ANIMAL, ANIMAL_ALIVE, ANIMAL_DEAD, MEOW_NORMAL, MEOW_SAD, MEOW_CRITICAL, EAT_FOOD, PURR_PLAY, PURR_SLEEP`
+- `_mod_mk\nyamagotchi\code\nyamagotchi.dm`: `NO_ANIMAL, ANIMAL_ALIVE, ANIMAL_DEAD, MEOW_NORMAL, MEOW_SAD, MEOW_CRITICAL, EAT_FOOD, PURR_PLAY, PURR_SLEEP`
 
 ### Используемые файлы, не содержащиеся в модпаке
 
