@@ -36,5 +36,5 @@ ID мода: MK_NYAMAGOTCHI
 
 ### Авторы
 
-- [SmiLeYre](https://github.com/SmiLeYre) - оригинал
-- [Chi-Firka](https://github.com/Chi-Firka) - порт
+- Middiwiddi, LT3 - оригинал
+- Chi-Firka - порт
